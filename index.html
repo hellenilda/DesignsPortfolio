@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Hellen</title>
+    <title>Hellen | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- Cabeçalho com Navbar -->
+    <header class="header text-center py-5" style="background-color: #FFEDF7;">
+        <h1 class="title">Hellen</h1>
+        <p class="subtitle">Desenvolvedora back-end | Artista digital</p>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção de Portfólio -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Tipos de Serviços</h2>
+            <div class="row">
+                <h3 class="col-12">Logomarcas Vetorizadas</h3>
+                <div class="col-md-6"><img src="assets/Oiticica.png" alt="Exemplo de logomarca vetorizada"
+                        class="portfolio-image img-fluid"></div>
+                <div class="col-md-6"><img src="assets/Oficina.svg" alt="Exemplo de logomarca vetorizada"
+                        class="portfolio-image img-fluid"></div>
+            </div>
+            <div class="row py-5">
+                <h3 class="col-12">Tags Vetorizadas</h3>
+                <div class="col-md-6"><img src="assets/Tags quadradas.png" alt="Tags quadradas"
+                        class="portfolio-image img-fluid"></div>
+                <div class="col-md-6"><img src="assets/Tags redondas.png" alt="Tags redondas"
+                        class="portfolio-image img-fluid"></div>
+            </div>
+            <div class="row py-5">
+                <h3 class="col-12">Designs de Site</h3>
+                <div class="col-md-6"><img src="assets/Crypto Dashboard.png" alt="Design de site"
+                        class="portfolio-image img-fluid"></div>
+            </div>
+            <div class="row py-5">
+                <h3 class="col-12">Desenhos Digitais</h3>
+                <div class="col-md-6"><img src="assets/Ely's dream.png" alt="Desenho de personagem 1"
+                        class="portfolio-image img-fluid"></div>
+                <div class="col-md-6"><img src="assets/Iris Design.png" alt="Desenho de personagem 2"
+                        class="portfolio-image img-fluid"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center mb-5">
+        <img src="assets/divisor.png" alt="Divisor" class="img-fluid" style="width: 300px;">
+    </div>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="sobre-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Sobre Mim</h2>
+            <p class="text-center">Oi! Me chamo Hellen e sou autodidata em desenhos digitais desde 2018 e atuo na
+                programação desde 2021.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contato-section py-5" style="background-color: #FFEDF7;">
+        <div class="container">
+            <h2 class="section-title text-center">Contato</h2>
+            <div class="row text-center contact-options">
+                <div class="col"><a href="https://www.instagram.com/heinarts.py/" target="_blank" class="d-block"><i
+                            class="fab fa-instagram fa-2x"></i>
+                        <p>Instagram</p>
+                    </a></div>
+                <div class="col"><a href="https://github.com/hellenilda" target="_blank" class="d-block"><i
+                            class="fab fa-github fa-2x"></i>
+                        <p>Github</p>
+                    </a></div>
+                <div class="col"><a href="mailto:heinarts.py@gmail.com" class="d-block"><i
+                            class="fas fa-envelope fa-2x"></i>
+                        <p>Gmail</p>
+                    </a></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.header {
+    background-color: #FFEDF7;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #ff69ba;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #000000;
+}
+
+.navbar .nav-link {
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #FFEDF7;
+}
+
+.section-title {
+    font-weight: 800;
+    color: #ff69ba;
+    margin: 2rem 0;
+}
+
+.portfolio-section,
+.sobre-section {
+    background-color: #FFFFFF;
+}
+
+.portfolio-image {
+    border-radius: 8px;
+}
+
+.contato-section {
+    background-color: #FFEDF7;
+}
+
+.contact-options a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-options a:hover {
+    color: #000000;
+}
