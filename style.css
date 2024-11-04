@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background-color: #FFFFFF;
     color: #000000;
+    font-family: 'Cocomat', sans-serif;
 }
 
 .header {
@@ -30,7 +30,11 @@ body {
 }
 
 .navbar .nav-link:hover {
-    color: #FFEDF7;
+    color: #ff69ba;
+}
+
+.contact-options a:hover {
+    color: #ff69ba;
 }
 
 .section-title {
